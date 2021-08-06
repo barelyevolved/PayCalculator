@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayCalculatorTests", "PayCa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayCalculation", "PayCalculation\PayCalculation.csproj", "{6A99CD34-86F3-4445-A1EF-AC8E0F4A256C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculation.PayRun", "PayCalculator.PayRun\PayCalculation.PayRun.csproj", "{EECF4800-CBB8-42C3-A62C-5A37CA69066B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PayCalculation.Domain.Interfaces", "PayCalculator.Domain.Interfaces\PayCalculation.Domain.Interfaces.csproj", "{4F555209-E37D-4323-A4B9-F7E5BE69FEA0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{6A99CD34-86F3-4445-A1EF-AC8E0F4A256C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A99CD34-86F3-4445-A1EF-AC8E0F4A256C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A99CD34-86F3-4445-A1EF-AC8E0F4A256C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EECF4800-CBB8-42C3-A62C-5A37CA69066B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EECF4800-CBB8-42C3-A62C-5A37CA69066B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EECF4800-CBB8-42C3-A62C-5A37CA69066B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EECF4800-CBB8-42C3-A62C-5A37CA69066B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F555209-E37D-4323-A4B9-F7E5BE69FEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F555209-E37D-4323-A4B9-F7E5BE69FEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F555209-E37D-4323-A4B9-F7E5BE69FEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F555209-E37D-4323-A4B9-F7E5BE69FEA0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

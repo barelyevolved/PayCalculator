@@ -1,8 +1,9 @@
 ﻿using System.Linq;
+using PayCalculation.Domain.Interfaces;
 
 namespace PayCalculation
 {
-    public class PayCalculator
+    public class PayCalculator : IPayCalculator
     {
         private readonly LegislationData _legislationData;
 
@@ -11,7 +12,7 @@ namespace PayCalculation
             _legislationData = legislationData;
         }
 
-        public PayResult CalculatePay(Employee employee)
+        public IPayCalculateResult CalculatePay(IEmployee employee)
         {
             var payResult = new PayResult();
 

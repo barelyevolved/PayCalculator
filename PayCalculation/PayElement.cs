@@ -1,6 +1,8 @@
-﻿namespace PayCalculation
+﻿using PayCalculation.Domain.Interfaces;
+
+namespace PayCalculation
 {
-    public class PayElement
+    public class PayElement : IPayElement
     {
         public string Name { get; set; }
 
